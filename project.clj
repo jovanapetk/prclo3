@@ -9,7 +9,9 @@
                  [yesql "0.5.3"]
                  [mysql/mysql-connector-java "5.1.32"]
                  [lib-noir "0.9.9"]
-                 [ring/ring-anti-forgery "1.1.0"]]
+                 [ring/ring-anti-forgery "1.1.0"]
+                 [bouncer "1.0.1"]
+                 [clj-time "0.14.4"]]
   :plugins [[lein-ring "0.9.7"]]
   :ring {:handler primer3.handler/app}
   :profiles

@@ -13,13 +13,16 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Leiningen: args4j:2.33" level="project" />
+    <orderEntry type="library" name="Leiningen: bouncer:1.0.1" level="project" />
     <orderEntry type="library" name="Leiningen: cheshire:5.4.0" level="project" />
     <orderEntry type="library" name="Leiningen: clj-stacktrace:0.2.7" level="project" />
-    <orderEntry type="library" name="Leiningen: clj-time:0.11.0" level="project" />
+    <orderEntry type="library" name="Leiningen: clj-time:0.14.4" level="project" />
     <orderEntry type="library" name="Leiningen: clj-yaml:0.4.0" level="project" />
     <orderEntry type="library" name="Leiningen: clojure-complete:0.2.4" level="project" />
     <orderEntry type="library" name="Leiningen: clojurewerkz/scrypt:1.2.0" level="project" />
     <orderEntry type="library" name="Leiningen: clout:2.1.2" level="project" />
+    <orderEntry type="library" name="Leiningen: com.andrewmcveigh/cljs-time:0.5.0-alpha2" level="project" />
     <orderEntry type="library" name="Leiningen: com.cognitect/transit-clj:0.8.269" level="project" />
     <orderEntry type="library" name="Leiningen: com.cognitect/transit-java:0.8.276" level="project" />
     <orderEntry type="library" name="Leiningen: com.fasterxml.jackson.core/jackson-annotations:2.3.0" level="project" />
@@ -28,6 +31,13 @@
     <orderEntry type="library" name="Leiningen: com.fasterxml.jackson.dataformat/jackson-dataformat-cbor:2.4.4" level="project" />
     <orderEntry type="library" name="Leiningen: com.fasterxml.jackson.dataformat/jackson-dataformat-smile:2.4.4" level="project" />
     <orderEntry type="library" name="Leiningen: com.fasterxml.jackson.datatype/jackson-datatype-json-org:2.3.2" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.code.findbugs/jsr305:3.0.1" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.code.gson/gson:2.7" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.guava/guava:20.0" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.javascript/closure-compiler-externs:v20170218" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.javascript/closure-compiler-unshaded:v20170218" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.jsinterop/jsinterop-annotations:1.0.0" level="project" />
+    <orderEntry type="library" name="Leiningen: com.google.protobuf/protobuf-java:3.0.2" level="project" />
     <orderEntry type="library" name="Leiningen: com.googlecode.json-simple/json-simple:1.1.1" level="project" />
     <orderEntry type="library" name="Leiningen: com.ibm.icu/icu4j:54.1" level="project" />
     <orderEntry type="library" name="Leiningen: com.lambdaworks/scrypt:1.4.0" level="project" />
@@ -40,16 +50,20 @@
     <orderEntry type="library" name="Leiningen: hiccup:1.0.5" level="project" />
     <orderEntry type="library" name="Leiningen: instaparse:1.4.1" level="project" />
     <orderEntry type="library" name="Leiningen: javax.servlet/servlet-api:2.5" level="project" />
-    <orderEntry type="library" name="Leiningen: joda-time:2.8.2" level="project" />
+    <orderEntry type="library" name="Leiningen: joda-time:2.9.9" level="project" />
     <orderEntry type="library" name="Leiningen: lib-noir:0.9.9" level="project" />
     <orderEntry type="library" name="Leiningen: medley:0.8.2" level="project" />
     <orderEntry type="library" name="Leiningen: mysql/mysql-connector-java:5.1.32" level="project" />
     <orderEntry type="library" name="Leiningen: ns-tracker:0.2.2" level="project" />
     <orderEntry type="library" name="Leiningen: org.apache.directory.studio/org.apache.commons.codec:1.8" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.8.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/clojurescript:1.9.495" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.cache:0.6.4" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.memoize:0.5.7" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/data.json:0.2.6" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/data.priority-map:0.0.4" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/google-closure-library-third-party:0.0-20160609-f42b4a24" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/google-closure-library:0.0-20160609-f42b4a24" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/java.classpath:0.2.2" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/java.jdbc:0.5.8" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.macro:0.1.5" level="project" />
@@ -64,6 +78,7 @@
     <orderEntry type="library" name="Leiningen: org.eclipse.jetty/jetty-util:7.6.13.v20130916" level="project" />
     <orderEntry type="library" name="Leiningen: org.javassist/javassist:3.18.1-GA" level="project" />
     <orderEntry type="library" name="Leiningen: org.json/json:20090211" level="project" />
+    <orderEntry type="library" name="Leiningen: org.mozilla/rhino:1.7R5" level="project" />
     <orderEntry type="library" name="Leiningen: org.msgpack/msgpack:0.6.10" level="project" />
     <orderEntry type="library" name="Leiningen: org.yaml/snakeyaml:1.5" level="project" />
     <orderEntry type="library" name="Leiningen: ring-middleware-format:0.5.0" level="project" />
